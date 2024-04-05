@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 4108034572136329253}
   m_Layer: 0
   m_Name: Obstacle
-  m_TagString: Untagged
+  m_TagString: ObstacleMain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -175,6 +175,10 @@ PrefabInstance:
     - target: {fileID: 571626203768975055, guid: ff76760d9d80ed8459af500d55066c82, type: 3}
       propertyPath: m_Name
       value: Flappy_Pipe_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 571626203768975055, guid: ff76760d9d80ed8459af500d55066c82, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 8310499685784148869, guid: ff76760d9d80ed8459af500d55066c82, type: 3}
       propertyPath: m_LocalScale.x
@@ -249,6 +253,10 @@ PrefabInstance:
     - target: {fileID: 571626203768975055, guid: ff76760d9d80ed8459af500d55066c82, type: 3}
       propertyPath: m_Name
       value: Flappy_Pipe_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 571626203768975055, guid: ff76760d9d80ed8459af500d55066c82, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 8310499685784148869, guid: ff76760d9d80ed8459af500d55066c82, type: 3}
       propertyPath: m_LocalScale.x

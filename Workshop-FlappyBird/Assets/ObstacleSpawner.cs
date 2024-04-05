@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ObstacleSpawner : MonoBehaviour
@@ -9,10 +10,12 @@ public class ObstacleSpawner : MonoBehaviour
     public int numberOfObjects;
     public int initialNumberOfObjects;
 
-    public float spawnInterval = 2f; // Time between each obstacle spawn
+
+    public float spawnInterval = 4f; // Time between each obstacle spawn
     public float moveSpeed = 2f; // Speed at which obstacles move to the left
     public float destroyOffset = 2f; // Offset outside the visible part of the camera view to destroy obstacles
 
+    public float offsetY = 3f;
     private float timer; // Timer for obstacle spawning
 
     // Start is called before the first frame update
@@ -20,12 +23,13 @@ public class ObstacleSpawner : MonoBehaviour
 
     public void SpawnObstacle()
     {
-        // Instantiate the obstacle prefab
-        GameObject newObstacle = Instantiate(Obstacle, transform.position, Quaternion.identity);
+        // Calculate a random height for the new obstacle
+        float randomYPosition = Random.Range(-offsetY, offsetY);
 
-        // Move the obstacle to the left of the camera view
-        newObstacle.transform.position = new Vector3(Camera.main.transform.position.x + Camera.main.orthographicSize * Camera.main.aspect + destroyOffset,
-                                                      Random.Range(-2f, 2f), 0f);
+        Vector3 tempPos = transform.position;
+        tempPos.y += randomYPosition;
+
+        Instantiate(Obstacle, tempPos, Quaternion.identity);
     }
 
 
@@ -39,7 +43,6 @@ public class ObstacleSpawner : MonoBehaviour
 
             if (obstacle.transform.position.x < Camera.main.transform.position.x - Camera.main.orthographicSize * Camera.main.aspect - destroyOffset)
             {
-                // Destroy obstacle
                 Destroy(obstacle);
             }
         }
@@ -48,7 +51,7 @@ public class ObstacleSpawner : MonoBehaviour
 
     void Start()
     {
-        for (int i = 2; i < initialNumberOfObjects; i++)
+        for (int i = 0; i < initialNumberOfObjects; i++)
         {
             SpawnObstacle();
         }
