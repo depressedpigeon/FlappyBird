@@ -184,7 +184,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10.036162
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -215,8 +215,74 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8194798837326107196
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5858455360439179451, guid: e37081622476949619a487e707df9a59, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.005884342
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858455360439179451, guid: e37081622476949619a487e707df9a59, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0122409
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858455360439179451, guid: e37081622476949619a487e707df9a59, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0000002164888
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858455360439179451, guid: e37081622476949619a487e707df9a59, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858455360439179451, guid: e37081622476949619a487e707df9a59, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858455360439179451, guid: e37081622476949619a487e707df9a59, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858455360439179451, guid: e37081622476949619a487e707df9a59, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858455360439179451, guid: e37081622476949619a487e707df9a59, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858455360439179451, guid: e37081622476949619a487e707df9a59, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858455360439179451, guid: e37081622476949619a487e707df9a59, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6349137283798257890, guid: e37081622476949619a487e707df9a59, type: 3}
+      propertyPath: m_Name
+      value: bird
+      objectReference: {fileID: 0}
+    - target: {fileID: 6349137283798257890, guid: e37081622476949619a487e707df9a59, type: 3}
+      propertyPath: m_TagString
+      value: Bird
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773966927985197285, guid: e37081622476949619a487e707df9a59, type: 3}
+      propertyPath: m_GravityScale
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e37081622476949619a487e707df9a59, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 704638547}
+  - {fileID: 8194798837326107196}
