@@ -4,12 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< HEAD
-  - Bird
-=======
   - Score collider
   - Obstacle
->>>>>>> main
+  - ObstacleMain
   layers:
   - Default
   - TransparentFX
