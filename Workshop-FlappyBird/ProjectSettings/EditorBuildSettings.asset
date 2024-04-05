@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScreen.unity
     guid: 2cc4472a56d0b4d8fb0be40757952674
   - enabled: 1
-    path: Assets/flappybird.unity
+    path: Assets/Scenes/flappybird.unity
     guid: 2efded657c7764eb4a11c0c237b71ef1
   - enabled: 1
     path: Assets/Scenes/EndScreen.unity
