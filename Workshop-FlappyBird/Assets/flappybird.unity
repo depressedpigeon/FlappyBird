@@ -357,7 +357,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8040334639386021184, guid: 2b60c780a62f1954c81790631774ea0f, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: ObstacleMain
       objectReference: {fileID: 0}
     - target: {fileID: 8258940473845765596, guid: 2b60c780a62f1954c81790631774ea0f, type: 3}
       propertyPath: m_TagString
@@ -389,6 +389,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Obstacle: {fileID: 1624979071352369088}
+  numberOfObjects: 0
+  initialNumberOfObjects: 0
   spawnInterval: 2
   moveSpeed: 2
   destroyOffset: 2

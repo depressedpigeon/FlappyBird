@@ -7,7 +7,7 @@ public class ObstacleSpawner : MonoBehaviour
 
     public GameObject Obstacle;
     public int numberOfObjects;
-
+    public int initialNumberOfObjects;
 
     public float spawnInterval = 2f; // Time between each obstacle spawn
     public float moveSpeed = 2f; // Speed at which obstacles move to the left
@@ -48,7 +48,10 @@ public class ObstacleSpawner : MonoBehaviour
 
     void Start()
     {
-        
+        for (int i = 2; i < initialNumberOfObjects; i++)
+        {
+            SpawnObstacle();
+        }
     }
 
     // Update is called once per frame
