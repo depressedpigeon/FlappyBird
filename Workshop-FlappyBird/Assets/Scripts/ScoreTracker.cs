@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ScoreTracker : MonoBehaviour
 {
@@ -9,16 +10,11 @@ public class ScoreTracker : MonoBehaviour
 
     }
 
-    Scene currentScene = SceneManager.getActiveScene();
     public static int score = 0;
 
     void Update()
     {
-        if (currentScene = 1)
-        {
-            gameStarted = true;
-            scoreText.text = "Score: " + score;
-        }
+   
     }
 
     private void IncreaseScore()
