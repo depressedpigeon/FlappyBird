@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 6118925875658842252}
   - component: {fileID: 5223917692749201140}
   - component: {fileID: 5624013258621786127}
-  - component: {fileID: 6654477859108595514}
   - component: {fileID: 4029077145850721219}
   m_Layer: 0
   m_Name: bird
@@ -163,23 +162,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6654477859108595514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6349137283798257890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1fdec5813f3645f99b36d8bfb0a3f86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpForce: 10
-  gravityScale: 1
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!95 &4029077145850721219
 Animator:
   serializedVersion: 5
