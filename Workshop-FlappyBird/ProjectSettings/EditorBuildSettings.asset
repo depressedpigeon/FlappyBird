@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/StartScreen.unity
+    guid: 2cc4472a56d0b4d8fb0be40757952674
+  - enabled: 1
+    path: Assets/flappybird.unity
+    guid: 2efded657c7764eb4a11c0c237b71ef1
+  - enabled: 1
+    path: Assets/Scenes/EndScreen.unity
+    guid: 4b10957b8607549c4be4a8f374edb110
   m_configObjects: {}
