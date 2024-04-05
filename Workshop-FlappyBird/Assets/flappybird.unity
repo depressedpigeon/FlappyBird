@@ -184,7 +184,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10.036162
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -354,6 +354,10 @@ PrefabInstance:
     - target: {fileID: 8040334639386021184, guid: 2b60c780a62f1954c81790631774ea0f, type: 3}
       propertyPath: m_Name
       value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040334639386021184, guid: 2b60c780a62f1954c81790631774ea0f, type: 3}
+      propertyPath: m_TagString
+      value: ObstacleMain
       objectReference: {fileID: 0}
     - target: {fileID: 8258940473845765596, guid: 2b60c780a62f1954c81790631774ea0f, type: 3}
       propertyPath: m_TagString
